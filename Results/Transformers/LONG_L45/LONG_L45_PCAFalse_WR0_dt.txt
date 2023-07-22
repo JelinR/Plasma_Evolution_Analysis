@@ -1,0 +1,366 @@
+ 2023-06-11 17:25:33.864712: I tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:637] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+2023-06-11 17:25:33.956825: I tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:424] Loaded cuDNN version 8600
+2023-06-11 17:25:34.462899: I tensorflow/compiler/xla/service/service.cc:169] XLA service 0x21365590 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2023-06-11 17:25:34.462916: I tensorflow/compiler/xla/service/service.cc:177]   StreamExecutor device (0): NVIDIA Graphics Device, Compute Capability 8.9
+2023-06-11 17:25:34.466288: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2023-06-11 17:25:34.554911: I ./tensorflow/compiler/jit/device_compiler.h:180] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+
+
+
+MODEL with L = 45, Dt = 10, Accept% = 20.0%, WR = 0, PCA = False, Try = 1
+loss: 0.3891046941280365
+tp: 61.0
+accuracy: 0.8060421347618103
+recall: 0.9682539701461792
+precision: 0.07411907613277435
+
+
+
+MODEL with L = 45, Dt = 10, Accept% = 20.0%, WR = 0, PCA = False, Try = 2
+loss: 0.1974952071905136
+tp: 48.0
+accuracy: 0.907904863357544
+recall: 0.761904776096344
+precision: 0.1221374049782753
+
+
+
+MODEL with L = 45, Dt = 10, Accept% = 20.0%, WR = 0, PCA = False, Try = 3
+loss: 0.4915978014469147
+tp: 59.0
+accuracy: 0.7243589758872986
+recall: 0.9365079402923584
+precision: 0.052212391048669815
+
+
+
+MODEL with L = 45, Dt = 10, Accept% = 20.0%, WR = 0, PCA = False, Try = 4
+loss: 0.25975000858306885
+tp: 58.0
+accuracy: 0.8718806505203247
+recall: 0.920634925365448
+precision: 0.10526315867900848
+
+
+
+MODEL with L = 45, Dt = 60, Accept% = 20.0%, WR = 0, PCA = False, Try = 1
+loss: 0.783927857875824
+tp: 60.0
+accuracy: 0.6482288837432861
+recall: 0.9523809552192688
+precision: 0.044510386884212494
+
+
+
+MODEL with L = 45, Dt = 60, Accept% = 20.0%, WR = 0, PCA = False, Try = 2
+loss: 0.9080349206924438
+tp: 63.0
+accuracy: 0.5770083069801331
+recall: 1.0
+precision: 0.03962264209985733
+
+
+
+MODEL with L = 45, Dt = 60, Accept% = 20.0%, WR = 0, PCA = False, Try = 3
+loss: 0.9499905705451965
+tp: 59.0
+accuracy: 0.6135413646697998
+recall: 0.9365079402923584
+precision: 0.04091539606451988
+
+
+
+MODEL with L = 45, Dt = 60, Accept% = 20.0%, WR = 0, PCA = False, Try = 4
+loss: 0.5038330554962158
+tp: 61.0
+accuracy: 0.693146824836731
+recall: 0.9682539701461792
+precision: 0.05276816710829735
+
+
+
+MODEL with L = 45, Dt = 110, Accept% = 20.0%, WR = 0, PCA = False, Try = 1
+loss: 0.5011753439903259
+tp: 58.0
+accuracy: 0.7163228392601013
+recall: 0.920634925365448
+precision: 0.05870445445179939
+
+
+
+MODEL with L = 45, Dt = 110, Accept% = 20.0%, WR = 0, PCA = False, Try = 2
+loss: 0.4278610646724701
+tp: 58.0
+accuracy: 0.7424615621566772
+recall: 0.920634925365448
+precision: 0.06516853719949722
+
+
+
+MODEL with L = 45, Dt = 110, Accept% = 20.0%, WR = 0, PCA = False, Try = 3
+loss: 0.4082615077495575
+tp: 52.0
+accuracy: 0.772229015827179
+recall: 0.8253968358039856
+precision: 0.06590621173381805
+
+
+
+MODEL with L = 45, Dt = 110, Accept% = 20.0%, WR = 0, PCA = False, Try = 4
+loss: 0.5570794343948364
+tp: 57.0
+accuracy: 0.6888208389282227
+recall: 0.9047619104385376
+precision: 0.05342080444097519
+
+
+
+MODEL with L = 45, Dt = 160, Accept% = 20.0%, WR = 0, PCA = False, Try = 1
+loss: 0.3510602116584778
+tp: 47.0
+accuracy: 0.8224236369132996
+recall: 0.7460317611694336
+precision: 0.08392857015132904
+
+
+
+MODEL with L = 45, Dt = 160, Accept% = 20.0%, WR = 0, PCA = False, Try = 2
+loss: 0.6629788875579834
+tp: 55.0
+accuracy: 0.6062036156654358
+recall: 0.8730158805847168
+precision: 0.045267488807439804
+
+
+
+MODEL with L = 45, Dt = 160, Accept% = 20.0%, WR = 0, PCA = False, Try = 3
+loss: 0.3674369156360626
+tp: 46.0
+accuracy: 0.7942262291908264
+recall: 0.7301587462425232
+precision: 0.07165109366178513
+
+
+
+MODEL with L = 45, Dt = 160, Accept% = 20.0%, WR = 0, PCA = False, Try = 4
+loss: 0.4927642345428467
+tp: 55.0
+accuracy: 0.6990092396736145
+recall: 0.8730158805847168
+precision: 0.05926724150776863
+
+
+
+MODEL with L = 45, Dt = 210, Accept% = 20.0%, WR = 0, PCA = False, Try = 1
+loss: 0.4430936276912689
+tp: 44.0
+accuracy: 0.7580645084381104
+recall: 0.7096773982048035
+precision: 0.06707317382097244
+
+
+
+MODEL with L = 45, Dt = 210, Accept% = 20.0%, WR = 0, PCA = False, Try = 2
+loss: 0.44625088572502136
+tp: 50.0
+accuracy: 0.7419354915618896
+recall: 0.8064516186714172
+precision: 0.06963787972927094
+
+
+
+MODEL with L = 45, Dt = 210, Accept% = 20.0%, WR = 0, PCA = False, Try = 3
+loss: 0.37082138657569885
+tp: 48.0
+accuracy: 0.8014454245567322
+recall: 0.774193525314331
+precision: 0.08633093535900116
+
+
+
+MODEL with L = 45, Dt = 210, Accept% = 20.0%, WR = 0, PCA = False, Try = 4
+loss: 0.45409947633743286
+tp: 50.0
+accuracy: 0.7349260449409485
+recall: 0.8064516186714172
+precision: 0.06784260272979736
+
+
+
+MODEL with L = 45, Dt = 260, Accept% = 20.0%, WR = 0, PCA = False, Try = 1
+loss: 0.7857466340065002
+tp: 57.0
+accuracy: 0.5709982514381409
+recall: 0.9193548560142517
+precision: 0.05433746427297592
+
+
+
+MODEL with L = 45, Dt = 260, Accept% = 20.0%, WR = 0, PCA = False, Try = 2
+loss: 0.6371023654937744
+tp: 57.0
+accuracy: 0.6334185600280762
+recall: 0.9193548560142517
+precision: 0.0625
+
+
+
+MODEL with L = 45, Dt = 260, Accept% = 20.0%, WR = 0, PCA = False, Try = 3
+loss: 0.6204546689987183
+tp: 55.0
+accuracy: 0.6878980994224548
+recall: 0.8870967626571655
+precision: 0.07024265825748444
+
+
+
+MODEL with L = 45, Dt = 260, Accept% = 20.0%, WR = 0, PCA = False, Try = 4
+loss: 0.37416666746139526
+tp: 41.0
+accuracy: 0.7942664623260498
+recall: 0.6612903475761414
+precision: 0.08070866018533707
+
+
+
+MODEL with L = 45, Dt = 310, Accept% = 20.0%, WR = 0, PCA = False, Try = 1
+loss: 0.6965450048446655
+tp: 54.0
+accuracy: 0.5905550122261047
+recall: 0.931034505367279
+precision: 0.06060606241226196
+
+
+
+MODEL with L = 45, Dt = 310, Accept% = 20.0%, WR = 0, PCA = False, Try = 2
+loss: 0.6754584312438965
+tp: 55.0
+accuracy: 0.6037549376487732
+recall: 0.9482758641242981
+precision: 0.06440281122922897
+
+
+
+MODEL with L = 45, Dt = 310, Accept% = 20.0%, WR = 0, PCA = False, Try = 3
+loss: 0.703667402267456
+tp: 55.0
+accuracy: 0.6162905097007751
+recall: 0.9482758641242981
+precision: 0.06594724208116531
+
+
+
+MODEL with L = 45, Dt = 310, Accept% = 20.0%, WR = 0, PCA = False, Try = 4
+loss: 0.6690680980682373
+tp: 54.0
+accuracy: 0.6090412139892578
+recall: 0.931034505367279
+precision: 0.06451612710952759
+
+
+
+MODEL with L = 45, Dt = 360, Accept% = 20.0%, WR = 0, PCA = False, Try = 1
+loss: 0.43000608682632446
+tp: 36.0
+accuracy: 0.7725694179534912
+recall: 0.6428571343421936
+precision: 0.08801955729722977
+
+
+
+MODEL with L = 45, Dt = 360, Accept% = 20.0%, WR = 0, PCA = False, Try = 2
+loss: 0.878483235836029
+tp: 53.0
+accuracy: 0.5456634163856506
+recall: 0.9464285969734192
+precision: 0.06302021443843842
+
+
+
+MODEL with L = 45, Dt = 360, Accept% = 20.0%, WR = 0, PCA = False, Try = 3
+loss: 0.5336874723434448
+tp: 48.0
+accuracy: 0.697808563709259
+recall: 0.8571428656578064
+precision: 0.08510638028383255
+
+
+
+MODEL with L = 45, Dt = 360, Accept% = 20.0%, WR = 0, PCA = False, Try = 4
+loss: 0.6152670383453369
+tp: 44.0
+accuracy: 0.6620209217071533
+recall: 0.7857142686843872
+precision: 0.07166124135255814
+
+
+
+MODEL with L = 45, Dt = 410, Accept% = 20.0%, WR = 0, PCA = False, Try = 1
+loss: 0.6067674160003662
+tp: 49.0
+accuracy: 0.6455609202384949
+recall: 0.9074074029922485
+precision: 0.08765652775764465
+
+
+
+MODEL with L = 45, Dt = 410, Accept% = 20.0%, WR = 0, PCA = False, Try = 2
+loss: 0.5612279176712036
+tp: 40.0
+accuracy: 0.6798657774925232
+recall: 0.7407407164573669
+precision: 0.07952286303043365
+
+
+
+MODEL with L = 45, Dt = 410, Accept% = 20.0%, WR = 0, PCA = False, Try = 3
+loss: 0.5142937302589417
+tp: 37.0
+accuracy: 0.6789366006851196
+recall: 0.6851851940155029
+precision: 0.07535641640424728
+
+
+
+MODEL with L = 45, Dt = 410, Accept% = 20.0%, WR = 0, PCA = False, Try = 4
+loss: 0.866076648235321
+tp: 49.0
+accuracy: 0.5280437469482422
+recall: 0.9074074029922485
+precision: 0.06675749272108078
+
+
+
+MODEL with L = 45, Dt = 460, Accept% = 20.0%, WR = 0, PCA = False, Try = 1
+loss: 0.5000512003898621
+tp: 26.0
+accuracy: 0.7534013390541077
+recall: 0.5098039507865906
+precision: 0.08934707939624786
+
+
+
+MODEL with L = 45, Dt = 460, Accept% = 20.0%, WR = 0, PCA = False, Try = 2
+loss: 0.7431219220161438
+tp: 46.0
+accuracy: 0.4679966866970062
+recall: 0.9019607901573181
+precision: 0.06754772365093231
+
+
+
+MODEL with L = 45, Dt = 460, Accept% = 20.0%, WR = 0, PCA = False, Try = 3
+loss: 0.547943651676178
+tp: 27.0
+accuracy: 0.7094926238059998
+recall: 0.529411792755127
+precision: 0.07541899383068085
+
+
+
+MODEL with L = 45, Dt = 460, Accept% = 20.0%, WR = 0, PCA = False, Try = 4
+loss: 0.7776331901550293
+tp: 48.0
+accuracy: 0.45395272970199585
+recall: 0.9411764740943909
+precision: 0.067132867872715

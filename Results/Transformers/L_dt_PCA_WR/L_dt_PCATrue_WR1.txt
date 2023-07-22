@@ -1,0 +1,1734 @@
+Shape of the x before PCA (13652, 15, 64)
+Total Variance covered:  0.9913435664709895
+PCA Successful, Shape of the pca data is :  (13652, 15, 29)
+2023-06-10 19:30:05.550763: I tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:637] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+2023-06-10 19:30:05.645499: I tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:424] Loaded cuDNN version 8600
+2023-06-10 19:30:06.263881: I tensorflow/compiler/xla/service/service.cc:169] XLA service 0x7fe1200130d0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2023-06-10 19:30:06.263895: I tensorflow/compiler/xla/service/service.cc:177]   StreamExecutor device (0): NVIDIA Graphics Device, Compute Capability 8.9
+2023-06-10 19:30:06.267204: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2023-06-10 19:30:06.355075: I ./tensorflow/compiler/jit/device_compiler.h:180] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+
+
+
+MODEL with L = 15, Dt = 10, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.1934386044740677
+tp: 83.0
+accuracy: 0.942626953125
+recall: 0.8736842274665833
+precision: 0.27124184370040894
+Shape of the x before PCA (13789, 15, 64)
+Total Variance covered:  0.9912072493590813
+PCA Successful, Shape of the pca data is :  (13789, 15, 29)
+
+
+
+MODEL with L = 15, Dt = 10, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.1561087816953659
+tp: 83.0
+accuracy: 0.956731915473938
+recall: 0.8736842274665833
+precision: 0.3319999873638153
+Shape of the x before PCA (13803, 15, 64)
+Total Variance covered:  0.9912815626520148
+PCA Successful, Shape of the pca data is :  (13803, 15, 29)
+
+
+
+MODEL with L = 15, Dt = 10, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.20883113145828247
+tp: 89.0
+accuracy: 0.9432504177093506
+recall: 0.9368420839309692
+precision: 0.27987420558929443
+Shape of the x before PCA (13811, 15, 64)
+Total Variance covered:  0.9913616737557537
+PCA Successful, Shape of the pca data is :  (13811, 15, 29)
+
+
+
+MODEL with L = 15, Dt = 10, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.1691623032093048
+tp: 88.0
+accuracy: 0.9531853199005127
+recall: 0.9263157844543457
+precision: 0.3199999928474426
+Shape of the x before PCA (13479, 15, 64)
+Total Variance covered:  0.9914508244000161
+PCA Successful, Shape of the pca data is :  (13479, 15, 29)
+
+
+
+MODEL with L = 15, Dt = 25, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.1263677328824997
+tp: 84.0
+accuracy: 0.9584569931030273
+recall: 0.8842105269432068
+precision: 0.34854772686958313
+Shape of the x before PCA (13417, 15, 64)
+Total Variance covered:  0.9912956546062891
+PCA Successful, Shape of the pca data is :  (13417, 15, 29)
+
+
+
+MODEL with L = 15, Dt = 25, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.1211736723780632
+tp: 78.0
+accuracy: 0.9624937772750854
+recall: 0.821052610874176
+precision: 0.3679245412349701
+Shape of the x before PCA (13452, 15, 64)
+Total Variance covered:  0.991275975666507
+PCA Successful, Shape of the pca data is :  (13452, 15, 29)
+
+
+
+MODEL with L = 15, Dt = 25, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.16776330769062042
+tp: 76.0
+accuracy: 0.9487115740776062
+recall: 0.800000011920929
+precision: 0.28787878155708313
+Shape of the x before PCA (13466, 15, 64)
+Total Variance covered:  0.9913303894651613
+PCA Successful, Shape of the pca data is :  (13466, 15, 29)
+
+
+
+MODEL with L = 15, Dt = 25, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.1451376974582672
+tp: 84.0
+accuracy: 0.9606435894966125
+recall: 0.8842105269432068
+precision: 0.36206895112991333
+Shape of the x before PCA (13130, 15, 64)
+Total Variance covered:  0.9912695958555094
+PCA Successful, Shape of the pca data is :  (13130, 15, 29)
+
+
+
+MODEL with L = 15, Dt = 40, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.14514046907424927
+tp: 73.0
+accuracy: 0.9545570015907288
+recall: 0.7684210538864136
+precision: 0.3173913061618805
+Shape of the x before PCA (13058, 15, 64)
+Total Variance covered:  0.9913501772524388
+PCA Successful, Shape of the pca data is :  (13058, 15, 29)
+
+
+
+MODEL with L = 15, Dt = 40, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.1532680094242096
+tp: 87.0
+accuracy: 0.9481878280639648
+recall: 0.9157894849777222
+precision: 0.3085106313228607
+Shape of the x before PCA (13352, 15, 64)
+Total Variance covered:  0.9912678771344319
+PCA Successful, Shape of the pca data is :  (13352, 15, 29)
+
+
+
+MODEL with L = 15, Dt = 40, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.14511330425739288
+tp: 84.0
+accuracy: 0.950324535369873
+recall: 0.8842105269432068
+precision: 0.30882352590560913
+Shape of the x before PCA (13191, 15, 64)
+Total Variance covered:  0.9913786657668394
+PCA Successful, Shape of the pca data is :  (13191, 15, 29)
+
+
+
+MODEL with L = 15, Dt = 40, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.13622549176216125
+tp: 86.0
+accuracy: 0.9560384154319763
+recall: 0.9052631855010986
+precision: 0.34262949228286743
+Shape of the x before PCA (12761, 15, 64)
+Total Variance covered:  0.9913102916427496
+PCA Successful, Shape of the pca data is :  (12761, 15, 29)
+
+
+
+MODEL with L = 15, Dt = 55, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.1459621638059616
+tp: 89.0
+accuracy: 0.9464612007141113
+recall: 0.9368420839309692
+precision: 0.3090277910232544
+Shape of the x before PCA (12724, 15, 64)
+Total Variance covered:  0.9913817057403929
+PCA Successful, Shape of the pca data is :  (12724, 15, 29)
+
+
+
+MODEL with L = 15, Dt = 55, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.20696887373924255
+tp: 81.0
+accuracy: 0.9374017715454102
+recall: 0.8526315689086914
+precision: 0.2647058963775635
+Shape of the x before PCA (12859, 15, 64)
+Total Variance covered:  0.9913200143722165
+PCA Successful, Shape of the pca data is :  (12859, 15, 29)
+
+
+
+MODEL with L = 15, Dt = 55, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.12751391530036926
+tp: 90.0
+accuracy: 0.952306866645813
+recall: 0.9473684430122375
+precision: 0.3345724940299988
+Shape of the x before PCA (12926, 15, 64)
+Total Variance covered:  0.9911006561017551
+PCA Successful, Shape of the pca data is :  (12926, 15, 29)
+
+
+
+MODEL with L = 15, Dt = 55, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.17424535751342773
+tp: 79.0
+accuracy: 0.9507477879524231
+recall: 0.8315789699554443
+precision: 0.31102362275123596
+Shape of the x before PCA (12527, 15, 64)
+Total Variance covered:  0.9912651425109771
+PCA Successful, Shape of the pca data is :  (12527, 15, 29)
+
+
+
+MODEL with L = 15, Dt = 70, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.18654395639896393
+tp: 71.0
+accuracy: 0.9438680410385132
+recall: 0.7473683953285217
+precision: 0.27519381046295166
+Shape of the x before PCA (12578, 15, 64)
+Total Variance covered:  0.9912659556784942
+PCA Successful, Shape of the pca data is :  (12578, 15, 29)
+
+
+
+MODEL with L = 15, Dt = 70, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.17411638796329498
+tp: 80.0
+accuracy: 0.9337573051452637
+recall: 0.8421052694320679
+precision: 0.2539682686328888
+Shape of the x before PCA (12674, 15, 64)
+Total Variance covered:  0.9912826527904507
+PCA Successful, Shape of the pca data is :  (12674, 15, 29)
+
+
+
+MODEL with L = 15, Dt = 70, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.16413305699825287
+tp: 84.0
+accuracy: 0.9481987953186035
+recall: 0.8842105269432068
+precision: 0.31111112236976624
+Shape of the x before PCA (12690, 15, 64)
+Total Variance covered:  0.9913263567851859
+PCA Successful, Shape of the pca data is :  (12690, 15, 29)
+
+
+
+MODEL with L = 15, Dt = 70, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.21980020403862
+tp: 82.0
+accuracy: 0.9338061213493347
+recall: 0.8631578683853149
+precision: 0.2554517090320587
+Shape of the x before PCA (12160, 15, 64)
+Total Variance covered:  0.9911959678281473
+PCA Successful, Shape of the pca data is :  (12160, 15, 29)
+
+
+
+MODEL with L = 15, Dt = 85, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.21148115396499634
+tp: 90.0
+accuracy: 0.9309210777282715
+recall: 0.957446813583374
+precision: 0.2662721872329712
+Shape of the x before PCA (12213, 15, 64)
+Total Variance covered:  0.991154984139218
+PCA Successful, Shape of the pca data is :  (12213, 15, 29)
+
+
+
+MODEL with L = 15, Dt = 85, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.20667269825935364
+tp: 76.0
+accuracy: 0.931768536567688
+recall: 0.800000011920929
+precision: 0.24755699932575226
+Shape of the x before PCA (12184, 15, 64)
+Total Variance covered:  0.9912014894808318
+PCA Successful, Shape of the pca data is :  (12184, 15, 29)
+
+
+
+MODEL with L = 15, Dt = 85, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.21864362061023712
+tp: 84.0
+accuracy: 0.9264222979545593
+recall: 0.8842105269432068
+precision: 0.24561403691768646
+Shape of the x before PCA (12246, 15, 64)
+Total Variance covered:  0.9912983789651163
+PCA Successful, Shape of the pca data is :  (12246, 15, 29)
+
+
+
+MODEL with L = 15, Dt = 85, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.18423029780387878
+tp: 77.0
+accuracy: 0.9428415894508362
+recall: 0.8105263113975525
+precision: 0.28624534606933594
+Shape of the x before PCA (13442, 30, 64)
+Total Variance covered:  0.9916483017159136
+PCA Successful, Shape of the pca data is :  (13442, 30, 29)
+
+
+
+MODEL with L = 30, Dt = 10, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.2276175320148468
+tp: 93.0
+accuracy: 0.9437143802642822
+recall: 0.9789473414421082
+precision: 0.2924528419971466
+Shape of the x before PCA (13401, 30, 64)
+Total Variance covered:  0.9915651564262961
+PCA Successful, Shape of the pca data is :  (13401, 30, 29)
+
+
+
+MODEL with L = 30, Dt = 10, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.20986352860927582
+tp: 83.0
+accuracy: 0.9482715725898743
+recall: 0.8736842274665833
+precision: 0.29749104380607605
+Shape of the x before PCA (13736, 30, 64)
+Total Variance covered:  0.9915664340075804
+PCA Successful, Shape of the pca data is :  (13736, 30, 29)
+
+
+
+MODEL with L = 30, Dt = 10, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.13252051174640656
+tp: 77.0
+accuracy: 0.9645717144012451
+recall: 0.8105263113975525
+precision: 0.37560975551605225
+Shape of the x before PCA (13494, 30, 64)
+Total Variance covered:  0.9915746293720977
+PCA Successful, Shape of the pca data is :  (13494, 30, 29)
+
+
+
+MODEL with L = 30, Dt = 10, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.15195855498313904
+tp: 77.0
+accuracy: 0.9622129201889038
+recall: 0.8105263113975525
+precision: 0.36320754885673523
+Shape of the x before PCA (12994, 30, 64)
+Total Variance covered:  0.991493876121497
+PCA Successful, Shape of the pca data is :  (12994, 30, 29)
+
+
+
+MODEL with L = 30, Dt = 25, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.10153553634881973
+tp: 83.0
+accuracy: 0.9651192426681519
+recall: 0.8736842274665833
+precision: 0.40096619725227356
+Shape of the x before PCA (13127, 30, 64)
+Total Variance covered:  0.9914087434532703
+PCA Successful, Shape of the pca data is :  (13127, 30, 29)
+
+
+
+MODEL with L = 30, Dt = 25, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.14354027807712555
+tp: 88.0
+accuracy: 0.9588727951049805
+recall: 0.9263157844543457
+precision: 0.36213991045951843
+Shape of the x before PCA (13122, 30, 64)
+Total Variance covered:  0.9912869502780446
+PCA Successful, Shape of the pca data is :  (13122, 30, 29)
+
+
+
+MODEL with L = 30, Dt = 25, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.1676076352596283
+tp: 76.0
+accuracy: 0.954279899597168
+recall: 0.800000011920929
+precision: 0.3206751048564911
+Shape of the x before PCA (13134, 30, 64)
+Total Variance covered:  0.9915119391790639
+PCA Successful, Shape of the pca data is :  (13134, 30, 29)
+
+
+
+MODEL with L = 30, Dt = 25, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.15180432796478271
+tp: 80.0
+accuracy: 0.9649835228919983
+recall: 0.8421052694320679
+precision: 0.39408865571022034
+Shape of the x before PCA (12932, 30, 64)
+Total Variance covered:  0.9914728192151055
+PCA Successful, Shape of the pca data is :  (12932, 30, 29)
+
+
+
+MODEL with L = 30, Dt = 40, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.21248987317085266
+tp: 86.0
+accuracy: 0.9479381442070007
+recall: 0.9052631855010986
+precision: 0.3082437217235565
+Shape of the x before PCA (12947, 30, 64)
+Total Variance covered:  0.9912853593009388
+PCA Successful, Shape of the pca data is :  (12947, 30, 29)
+
+
+
+MODEL with L = 30, Dt = 40, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.20513509213924408
+tp: 88.0
+accuracy: 0.9387387633323669
+recall: 0.9263157844543457
+precision: 0.27586206793785095
+Shape of the x before PCA (12794, 30, 64)
+Total Variance covered:  0.9913551768815441
+PCA Successful, Shape of the pca data is :  (12794, 30, 29)
+
+
+
+MODEL with L = 30, Dt = 40, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.15453168749809265
+tp: 75.0
+accuracy: 0.9559780955314636
+recall: 0.7894737124443054
+precision: 0.3348214328289032
+Shape of the x before PCA (12826, 30, 64)
+Total Variance covered:  0.9915021491878914
+PCA Successful, Shape of the pca data is :  (12826, 30, 29)
+
+
+
+MODEL with L = 30, Dt = 40, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.20557062327861786
+tp: 81.0
+accuracy: 0.9436070919036865
+recall: 0.8526315689086914
+precision: 0.2852112650871277
+Shape of the x before PCA (12461, 30, 64)
+Total Variance covered:  0.9914554655885092
+PCA Successful, Shape of the pca data is :  (12461, 30, 29)
+
+
+
+MODEL with L = 30, Dt = 55, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.21501214802265167
+tp: 78.0
+accuracy: 0.9449050426483154
+recall: 0.821052610874176
+precision: 0.2921348214149475
+Shape of the x before PCA (12550, 30, 64)
+Total Variance covered:  0.9913988152871737
+PCA Successful, Shape of the pca data is :  (12550, 30, 29)
+
+
+
+MODEL with L = 30, Dt = 55, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.16702847182750702
+tp: 82.0
+accuracy: 0.9537848830223083
+recall: 0.8631578683853149
+precision: 0.3374485671520233
+Shape of the x before PCA (12388, 30, 64)
+Total Variance covered:  0.9913520652918977
+PCA Successful, Shape of the pca data is :  (12388, 30, 29)
+
+
+
+MODEL with L = 30, Dt = 55, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.1164732500910759
+tp: 76.0
+accuracy: 0.9671778082847595
+recall: 0.800000011920929
+precision: 0.42458099126815796
+Shape of the x before PCA (12686, 30, 64)
+Total Variance covered:  0.99149457963269
+PCA Successful, Shape of the pca data is :  (12686, 30, 29)
+
+
+
+MODEL with L = 30, Dt = 55, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.23501180112361908
+tp: 76.0
+accuracy: 0.9316868185997009
+recall: 0.800000011920929
+precision: 0.23974762856960297
+Shape of the x before PCA (12200, 30, 64)
+Total Variance covered:  0.9915080548399968
+PCA Successful, Shape of the pca data is :  (12200, 30, 29)
+
+
+
+MODEL with L = 30, Dt = 70, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.24126939475536346
+tp: 89.0
+accuracy: 0.9319671988487244
+recall: 0.9468085169792175
+precision: 0.26726725697517395
+Shape of the x before PCA (12198, 30, 64)
+Total Variance covered:  0.991456878242925
+PCA Successful, Shape of the pca data is :  (12198, 30, 29)
+
+
+
+MODEL with L = 30, Dt = 70, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.12751533091068268
+tp: 82.0
+accuracy: 0.9573770761489868
+recall: 0.8631578683853149
+precision: 0.36444443464279175
+Shape of the x before PCA (12153, 30, 64)
+Total Variance covered:  0.9915028067907533
+PCA Successful, Shape of the pca data is :  (12153, 30, 29)
+
+
+
+MODEL with L = 30, Dt = 70, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.16364909708499908
+tp: 75.0
+accuracy: 0.9511793851852417
+recall: 0.7894737124443054
+precision: 0.32188841700553894
+Shape of the x before PCA (12251, 30, 64)
+Total Variance covered:  0.9914609086941581
+PCA Successful, Shape of the pca data is :  (12251, 30, 29)
+
+
+
+MODEL with L = 30, Dt = 70, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.15747083723545074
+tp: 83.0
+accuracy: 0.9453210234642029
+recall: 0.8736842274665833
+precision: 0.30514705181121826
+Shape of the x before PCA (11749, 30, 64)
+Total Variance covered:  0.9915582091465962
+PCA Successful, Shape of the pca data is :  (11749, 30, 29)
+
+
+
+MODEL with L = 30, Dt = 85, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.19340822100639343
+tp: 83.0
+accuracy: 0.9503546357154846
+recall: 0.8736842274665833
+precision: 0.33739838004112244
+Shape of the x before PCA (11762, 30, 64)
+Total Variance covered:  0.9914355594919266
+PCA Successful, Shape of the pca data is :  (11762, 30, 29)
+
+
+
+MODEL with L = 30, Dt = 85, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.28174036741256714
+tp: 76.0
+accuracy: 0.9257580041885376
+recall: 0.800000011920929
+precision: 0.23824451863765717
+Shape of the x before PCA (11856, 30, 64)
+Total Variance covered:  0.9913812639081867
+PCA Successful, Shape of the pca data is :  (11856, 30, 29)
+
+
+
+MODEL with L = 30, Dt = 85, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.1529511660337448
+tp: 72.0
+accuracy: 0.9634523391723633
+recall: 0.75789475440979
+precision: 0.40223464369773865
+Shape of the x before PCA (12014, 30, 64)
+Total Variance covered:  0.9914321522871259
+PCA Successful, Shape of the pca data is :  (12014, 30, 29)
+
+
+
+MODEL with L = 30, Dt = 85, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.21343019604682922
+tp: 88.0
+accuracy: 0.9434119462966919
+recall: 0.9263157844543457
+precision: 0.30877193808555603
+Shape of the x before PCA (12950, 45, 64)
+Total Variance covered:  0.9916839396364462
+PCA Successful, Shape of the pca data is :  (12950, 45, 29)
+
+
+
+MODEL with L = 45, Dt = 10, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.15501351654529572
+tp: 78.0
+accuracy: 0.9678249955177307
+recall: 0.821052610874176
+precision: 0.4193548262119293
+Shape of the x before PCA (13033, 45, 64)
+Total Variance covered:  0.9915914207351861
+PCA Successful, Shape of the pca data is :  (13033, 45, 29)
+
+
+
+MODEL with L = 45, Dt = 10, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.2047986388206482
+tp: 87.0
+accuracy: 0.9557544589042664
+recall: 0.9157894849777222
+precision: 0.3452380895614624
+Shape of the x before PCA (13463, 45, 64)
+Total Variance covered:  0.9917019290031467
+PCA Successful, Shape of the pca data is :  (13463, 45, 29)
+
+
+
+MODEL with L = 45, Dt = 10, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.0981425791978836
+tp: 91.0
+accuracy: 0.9732607007026672
+recall: 0.9578947424888611
+precision: 0.46666666865348816
+Shape of the x before PCA (13122, 45, 64)
+Total Variance covered:  0.9916199345847626
+PCA Successful, Shape of the pca data is :  (13122, 45, 29)
+
+
+
+MODEL with L = 45, Dt = 10, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.152505025267601
+tp: 84.0
+accuracy: 0.9700279235839844
+recall: 0.8842105269432068
+precision: 0.4397905766963959
+Shape of the x before PCA (12988, 45, 64)
+Total Variance covered:  0.9915205093544421
+PCA Successful, Shape of the pca data is :  (12988, 45, 29)
+
+
+
+MODEL with L = 45, Dt = 25, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.14358161389827728
+tp: 86.0
+accuracy: 0.9589427709579468
+recall: 0.9052631855010986
+precision: 0.3628692030906677
+Shape of the x before PCA (12815, 45, 64)
+Total Variance covered:  0.9916680844075484
+PCA Successful, Shape of the pca data is :  (12815, 45, 29)
+
+
+
+MODEL with L = 45, Dt = 25, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.19235889613628387
+tp: 80.0
+accuracy: 0.9599480032920837
+recall: 0.8421052694320679
+precision: 0.3652968108654022
+Shape of the x before PCA (12802, 45, 64)
+Total Variance covered:  0.9916415022763952
+PCA Successful, Shape of the pca data is :  (12802, 45, 29)
+
+
+
+MODEL with L = 45, Dt = 25, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.3307066261768341
+tp: 86.0
+accuracy: 0.9125227928161621
+recall: 0.9052631855010986
+precision: 0.20823244750499725
+Shape of the x before PCA (12796, 45, 64)
+Total Variance covered:  0.9915794098719791
+PCA Successful, Shape of the pca data is :  (12796, 45, 29)
+
+
+
+MODEL with L = 45, Dt = 25, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.19414959847927094
+tp: 84.0
+accuracy: 0.9520708322525024
+recall: 0.8842105269432068
+precision: 0.32684823870658875
+Shape of the x before PCA (12438, 45, 64)
+Total Variance covered:  0.9916608964665522
+PCA Successful, Shape of the pca data is :  (12438, 45, 29)
+
+
+
+MODEL with L = 45, Dt = 40, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.14984667301177979
+tp: 81.0
+accuracy: 0.9581993818283081
+recall: 0.8526315689086914
+precision: 0.3632287085056305
+Shape of the x before PCA (12561, 45, 64)
+Total Variance covered:  0.9916786917836197
+PCA Successful, Shape of the pca data is :  (12561, 45, 29)
+
+
+
+MODEL with L = 45, Dt = 40, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.16222962737083435
+tp: 84.0
+accuracy: 0.9567524790763855
+recall: 0.8842105269432068
+precision: 0.35593220591545105
+Shape of the x before PCA (12478, 45, 64)
+Total Variance covered:  0.991522120681481
+PCA Successful, Shape of the pca data is :  (12478, 45, 29)
+
+
+
+MODEL with L = 45, Dt = 40, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.22620518505573273
+tp: 84.0
+accuracy: 0.9428418874740601
+recall: 0.8842105269432068
+precision: 0.2926829159259796
+Shape of the x before PCA (12629, 45, 64)
+Total Variance covered:  0.9916529385261369
+PCA Successful, Shape of the pca data is :  (12629, 45, 29)
+
+
+
+MODEL with L = 45, Dt = 40, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.21204642951488495
+tp: 81.0
+accuracy: 0.9427289366722107
+recall: 0.8526315689086914
+precision: 0.2852112650871277
+Shape of the x before PCA (12144, 45, 64)
+Total Variance covered:  0.9914823502820843
+PCA Successful, Shape of the pca data is :  (12144, 45, 29)
+
+
+
+MODEL with L = 45, Dt = 55, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.16969837248325348
+tp: 76.0
+accuracy: 0.9558177590370178
+recall: 0.800000011920929
+precision: 0.3486238420009613
+Shape of the x before PCA (12164, 45, 64)
+Total Variance covered:  0.9916507251427723
+PCA Successful, Shape of the pca data is :  (12164, 45, 29)
+
+
+
+MODEL with L = 45, Dt = 55, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.28838613629341125
+tp: 87.0
+accuracy: 0.9246575236320496
+recall: 0.9157894849777222
+precision: 0.24576270580291748
+Shape of the x before PCA (12053, 45, 64)
+Total Variance covered:  0.9916869860974755
+PCA Successful, Shape of the pca data is :  (12053, 45, 29)
+
+
+
+MODEL with L = 45, Dt = 55, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.19506070017814636
+tp: 73.0
+accuracy: 0.9540929198265076
+recall: 0.7684210538864136
+precision: 0.33640551567077637
+Shape of the x before PCA (12291, 45, 64)
+Total Variance covered:  0.9915932397502467
+PCA Successful, Shape of the pca data is :  (12291, 45, 29)
+
+
+
+MODEL with L = 45, Dt = 55, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.1849670559167862
+tp: 71.0
+accuracy: 0.953362226486206
+recall: 0.7473683953285217
+precision: 0.32420089840888977
+Shape of the x before PCA (11765, 45, 64)
+Total Variance covered:  0.9916300419638193
+PCA Successful, Shape of the pca data is :  (11765, 45, 29)
+
+
+
+MODEL with L = 45, Dt = 70, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.1515570878982544
+tp: 82.0
+accuracy: 0.9611898064613342
+recall: 0.8631578683853149
+precision: 0.3980582654476166
+Shape of the x before PCA (11780, 45, 64)
+Total Variance covered:  0.9916323362048939
+PCA Successful, Shape of the pca data is :  (11780, 45, 29)
+
+
+
+MODEL with L = 45, Dt = 70, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.12840256094932556
+tp: 77.0
+accuracy: 0.9663271307945251
+recall: 0.8105263113975525
+precision: 0.4325842559337616
+Shape of the x before PCA (11811, 45, 64)
+Total Variance covered:  0.9918254413608513
+PCA Successful, Shape of the pca data is :  (11811, 45, 29)
+
+
+
+MODEL with L = 45, Dt = 70, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.18195883929729462
+tp: 82.0
+accuracy: 0.943848729133606
+recall: 0.8631578683853149
+precision: 0.305970162153244
+Shape of the x before PCA (11906, 45, 64)
+Total Variance covered:  0.9916561879861343
+PCA Successful, Shape of the pca data is :  (11906, 45, 29)
+
+
+
+MODEL with L = 45, Dt = 70, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.21921619772911072
+tp: 74.0
+accuracy: 0.943169116973877
+recall: 0.7789473533630371
+precision: 0.2890625
+Shape of the x before PCA (11516, 45, 64)
+Total Variance covered:  0.9914523258416739
+PCA Successful, Shape of the pca data is :  (11516, 45, 29)
+
+
+
+MODEL with L = 45, Dt = 85, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.2202780842781067
+tp: 85.0
+accuracy: 0.9389290809631348
+recall: 0.8947368264198303
+precision: 0.29720279574394226
+Shape of the x before PCA (11621, 45, 64)
+Total Variance covered:  0.9914236382646843
+PCA Successful, Shape of the pca data is :  (11621, 45, 29)
+
+
+
+MODEL with L = 45, Dt = 85, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.17941191792488098
+tp: 82.0
+accuracy: 0.9472326040267944
+recall: 0.8631578683853149
+precision: 0.3241106867790222
+Shape of the x before PCA (11597, 45, 64)
+Total Variance covered:  0.991684090271155
+PCA Successful, Shape of the pca data is :  (11597, 45, 29)
+
+
+
+MODEL with L = 45, Dt = 85, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.22485202550888062
+tp: 70.0
+accuracy: 0.9390804767608643
+recall: 0.7368420958518982
+precision: 0.2723735272884369
+Shape of the x before PCA (11579, 45, 64)
+Total Variance covered:  0.9917415593854761
+PCA Successful, Shape of the pca data is :  (11579, 45, 29)
+
+
+
+MODEL with L = 45, Dt = 85, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.3344082534313202
+tp: 85.0
+accuracy: 0.9234312176704407
+recall: 0.8947368264198303
+precision: 0.2492668628692627
+Shape of the x before PCA (12853, 60, 64)
+Total Variance covered:  0.9918598421617456
+PCA Successful, Shape of the pca data is :  (12853, 60, 29)
+
+
+
+MODEL with L = 60, Dt = 10, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.1320701539516449
+tp: 71.0
+accuracy: 0.973288357257843
+recall: 0.7473683953285217
+precision: 0.47333332896232605
+Shape of the x before PCA (12730, 60, 64)
+Total Variance covered:  0.9918743051697978
+PCA Successful, Shape of the pca data is :  (12730, 60, 29)
+
+
+
+MODEL with L = 60, Dt = 10, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.12603232264518738
+tp: 92.0
+accuracy: 0.9672689437866211
+recall: 0.9684210419654846
+precision: 0.42990654706954956
+Shape of the x before PCA (12912, 60, 64)
+Total Variance covered:  0.9916641473834995
+PCA Successful, Shape of the pca data is :  (12912, 60, 29)
+
+
+
+MODEL with L = 60, Dt = 10, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.16066782176494598
+tp: 80.0
+accuracy: 0.956633985042572
+recall: 0.8421052694320679
+precision: 0.3433476388454437
+Shape of the x before PCA (12801, 60, 64)
+Total Variance covered:  0.9916760311470177
+PCA Successful, Shape of the pca data is :  (12801, 60, 29)
+
+
+
+MODEL with L = 60, Dt = 10, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.16866905987262726
+tp: 79.0
+accuracy: 0.959906280040741
+recall: 0.8315789699554443
+precision: 0.3640553057193756
+Shape of the x before PCA (12564, 60, 64)
+Total Variance covered:  0.9917414575054513
+PCA Successful, Shape of the pca data is :  (12564, 60, 29)
+
+
+
+MODEL with L = 60, Dt = 25, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.15644389390945435
+tp: 82.0
+accuracy: 0.9572944045066833
+recall: 0.8631578683853149
+precision: 0.35652172565460205
+Shape of the x before PCA (12645, 60, 64)
+Total Variance covered:  0.9917711109529443
+PCA Successful, Shape of the pca data is :  (12645, 60, 29)
+
+
+
+MODEL with L = 60, Dt = 25, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.13619117438793182
+tp: 68.0
+accuracy: 0.9649446606636047
+recall: 0.7157894968986511
+precision: 0.39080458879470825
+Shape of the x before PCA (12441, 60, 64)
+Total Variance covered:  0.9916815432821334
+PCA Successful, Shape of the pca data is :  (12441, 60, 29)
+
+
+
+MODEL with L = 60, Dt = 25, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.11467424780130386
+tp: 81.0
+accuracy: 0.9710688591003418
+recall: 0.8526315689086914
+precision: 0.4628571569919586
+Shape of the x before PCA (12425, 60, 64)
+Total Variance covered:  0.9918105054905589
+PCA Successful, Shape of the pca data is :  (12425, 60, 29)
+
+
+
+MODEL with L = 60, Dt = 25, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.20451295375823975
+tp: 86.0
+accuracy: 0.9522532224655151
+recall: 0.9052631855010986
+precision: 0.33725491166114807
+Shape of the x before PCA (12058, 60, 64)
+Total Variance covered:  0.991707993494876
+PCA Successful, Shape of the pca data is :  (12058, 60, 29)
+
+
+
+MODEL with L = 60, Dt = 40, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.3332957327365875
+tp: 89.0
+accuracy: 0.921779990196228
+recall: 0.9368420839309692
+precision: 0.2431693971157074
+Shape of the x before PCA (12226, 60, 64)
+Total Variance covered:  0.9918772790506448
+PCA Successful, Shape of the pca data is :  (12226, 60, 29)
+
+
+
+MODEL with L = 60, Dt = 40, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.30218416452407837
+tp: 76.0
+accuracy: 0.9263904094696045
+recall: 0.800000011920929
+precision: 0.23241589963436127
+Shape of the x before PCA (12165, 60, 64)
+Total Variance covered:  0.9917324114985977
+PCA Successful, Shape of the pca data is :  (12165, 60, 29)
+
+
+
+MODEL with L = 60, Dt = 40, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.09813637286424637
+tp: 78.0
+accuracy: 0.9698629975318909
+recall: 0.821052610874176
+precision: 0.45614033937454224
+Shape of the x before PCA (12103, 60, 64)
+Total Variance covered:  0.9917311105710584
+PCA Successful, Shape of the pca data is :  (12103, 60, 29)
+
+
+
+MODEL with L = 60, Dt = 40, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.23032262921333313
+tp: 83.0
+accuracy: 0.9418892860412598
+recall: 0.8736842274665833
+precision: 0.2943262457847595
+Shape of the x before PCA (12006, 60, 64)
+Total Variance covered:  0.9917836372228984
+PCA Successful, Shape of the pca data is :  (12006, 60, 29)
+
+
+
+MODEL with L = 60, Dt = 55, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.154767706990242
+tp: 83.0
+accuracy: 0.9578012228012085
+recall: 0.8736842274665833
+precision: 0.37219730019569397
+Shape of the x before PCA (12002, 60, 64)
+Total Variance covered:  0.9917596256491062
+PCA Successful, Shape of the pca data is :  (12002, 60, 29)
+
+
+
+MODEL with L = 60, Dt = 55, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.1789504885673523
+tp: 78.0
+accuracy: 0.9569563865661621
+recall: 0.821052610874176
+precision: 0.3611111044883728
+Shape of the x before PCA (11742, 60, 64)
+Total Variance covered:  0.9917545762834814
+PCA Successful, Shape of the pca data is :  (11742, 60, 29)
+
+
+
+MODEL with L = 60, Dt = 55, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.2160302698612213
+tp: 90.0
+accuracy: 0.944081723690033
+recall: 0.9473684430122375
+precision: 0.3191489279270172
+Shape of the x before PCA (11841, 60, 64)
+Total Variance covered:  0.9916480223027755
+PCA Successful, Shape of the pca data is :  (11841, 60, 29)
+
+
+
+MODEL with L = 60, Dt = 55, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.1681840419769287
+tp: 84.0
+accuracy: 0.9597523212432861
+recall: 0.8842105269432068
+precision: 0.3888888955116272
+Shape of the x before PCA (11727, 60, 64)
+Total Variance covered:  0.9917723520256719
+PCA Successful, Shape of the pca data is :  (11727, 60, 29)
+
+
+
+MODEL with L = 60, Dt = 70, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.17882688343524933
+tp: 88.0
+accuracy: 0.9531117081642151
+recall: 0.9263157844543457
+precision: 0.35772356390953064
+Shape of the x before PCA (11682, 60, 64)
+Total Variance covered:  0.9917629577403319
+PCA Successful, Shape of the pca data is :  (11682, 60, 29)
+
+
+
+MODEL with L = 60, Dt = 70, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.19153986871242523
+tp: 77.0
+accuracy: 0.9543509483337402
+recall: 0.8105263113975525
+precision: 0.35159817337989807
+Shape of the x before PCA (11393, 60, 64)
+Total Variance covered:  0.9918783631836907
+PCA Successful, Shape of the pca data is :  (11393, 60, 29)
+
+
+
+MODEL with L = 60, Dt = 70, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.1850886344909668
+tp: 74.0
+accuracy: 0.9569923877716064
+recall: 0.7789473533630371
+precision: 0.3700000047683716
+Shape of the x before PCA (11559, 60, 64)
+Total Variance covered:  0.9918931663555307
+PCA Successful, Shape of the pca data is :  (11559, 60, 29)
+
+
+
+MODEL with L = 60, Dt = 70, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.1512877196073532
+tp: 77.0
+accuracy: 0.9584774971008301
+recall: 0.8105263113975525
+precision: 0.37931033968925476
+Shape of the x before PCA (11279, 60, 64)
+Total Variance covered:  0.9917899372916562
+PCA Successful, Shape of the pca data is :  (11279, 60, 29)
+
+
+
+MODEL with L = 60, Dt = 85, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.25902459025382996
+tp: 88.0
+accuracy: 0.936761200428009
+recall: 0.9263157844543457
+precision: 0.29830509424209595
+Shape of the x before PCA (11312, 60, 64)
+Total Variance covered:  0.9917854554681023
+PCA Successful, Shape of the pca data is :  (11312, 60, 29)
+
+
+
+MODEL with L = 60, Dt = 85, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.26964589953422546
+tp: 90.0
+accuracy: 0.9239835143089294
+recall: 0.9473684430122375
+precision: 0.262390673160553
+Shape of the x before PCA (11240, 60, 64)
+Total Variance covered:  0.9918237738650161
+PCA Successful, Shape of the pca data is :  (11240, 60, 29)
+
+
+
+MODEL with L = 60, Dt = 85, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.20056869089603424
+tp: 82.0
+accuracy: 0.9490067958831787
+recall: 0.8631578683853149
+precision: 0.3402489721775055
+Shape of the x before PCA (11143, 60, 64)
+Total Variance covered:  0.9917247573806867
+PCA Successful, Shape of the pca data is :  (11143, 60, 29)
+
+
+
+MODEL with L = 60, Dt = 85, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.13176648318767548
+tp: 78.0
+accuracy: 0.965898871421814
+recall: 0.821052610874176
+precision: 0.4457142949104309
+Shape of the x before PCA (12690, 75, 64)
+Total Variance covered:  0.9918858276966076
+PCA Successful, Shape of the pca data is :  (12690, 75, 29)
+
+
+
+MODEL with L = 75, Dt = 10, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.15590828657150269
+tp: 82.0
+accuracy: 0.965589702129364
+recall: 0.8631578683853149
+precision: 0.4099999964237213
+Shape of the x before PCA (12518, 75, 64)
+Total Variance covered:  0.9919868031235565
+PCA Successful, Shape of the pca data is :  (12518, 75, 29)
+
+
+
+MODEL with L = 75, Dt = 10, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.15549328923225403
+tp: 88.0
+accuracy: 0.9645900130271912
+recall: 0.9263157844543457
+precision: 0.4112149477005005
+Shape of the x before PCA (12388, 75, 64)
+Total Variance covered:  0.991946614417593
+PCA Successful, Shape of the pca data is :  (12388, 75, 29)
+
+
+
+MODEL with L = 75, Dt = 10, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.17991098761558533
+tp: 81.0
+accuracy: 0.96394944190979
+recall: 0.8526315689086914
+precision: 0.4029850661754608
+Shape of the x before PCA (12482, 75, 64)
+Total Variance covered:  0.9918347375798892
+PCA Successful, Shape of the pca data is :  (12482, 75, 29)
+
+
+
+MODEL with L = 75, Dt = 10, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.12238650023937225
+tp: 88.0
+accuracy: 0.9668892025947571
+recall: 0.9263157844543457
+precision: 0.4292683005332947
+Shape of the x before PCA (12208, 75, 64)
+Total Variance covered:  0.9919771365301158
+PCA Successful, Shape of the pca data is :  (12208, 75, 29)
+
+
+
+MODEL with L = 75, Dt = 25, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.1406761258840561
+tp: 83.0
+accuracy: 0.9677859544754028
+recall: 0.8736842274665833
+precision: 0.43915343284606934
+Shape of the x before PCA (12327, 75, 64)
+Total Variance covered:  0.9919633630407849
+PCA Successful, Shape of the pca data is :  (12327, 75, 29)
+
+
+
+MODEL with L = 75, Dt = 25, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.1619715839624405
+tp: 85.0
+accuracy: 0.9556636810302734
+recall: 0.8947368264198303
+precision: 0.35564854741096497
+Shape of the x before PCA (12248, 75, 64)
+Total Variance covered:  0.9918187511781197
+PCA Successful, Shape of the pca data is :  (12248, 75, 29)
+
+
+
+MODEL with L = 75, Dt = 25, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.20808514952659607
+tp: 85.0
+accuracy: 0.9559183716773987
+recall: 0.8947368264198303
+precision: 0.3586497902870178
+Shape of the x before PCA (12168, 75, 64)
+Total Variance covered:  0.991926724951017
+PCA Successful, Shape of the pca data is :  (12168, 75, 29)
+
+
+
+MODEL with L = 75, Dt = 25, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.13972029089927673
+tp: 73.0
+accuracy: 0.9701451659202576
+recall: 0.7684210538864136
+precision: 0.45625001192092896
+Shape of the x before PCA (11941, 75, 64)
+Total Variance covered:  0.9917638832854009
+PCA Successful, Shape of the pca data is :  (11941, 75, 29)
+
+
+
+MODEL with L = 75, Dt = 40, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.17454184591770172
+tp: 88.0
+accuracy: 0.9614847898483276
+recall: 0.9263157844543457
+precision: 0.4018264710903168
+Shape of the x before PCA (12036, 75, 64)
+Total Variance covered:  0.9918677206664779
+PCA Successful, Shape of the pca data is :  (12036, 75, 29)
+
+
+
+MODEL with L = 75, Dt = 40, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.18627767264842987
+tp: 81.0
+accuracy: 0.9556909203529358
+recall: 0.8526315689086914
+precision: 0.3568281829357147
+Shape of the x before PCA (11842, 75, 64)
+Total Variance covered:  0.9919567058930615
+PCA Successful, Shape of the pca data is :  (11842, 75, 29)
+
+
+
+MODEL with L = 75, Dt = 40, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.13118505477905273
+tp: 78.0
+accuracy: 0.9710103869438171
+recall: 0.821052610874176
+precision: 0.47560974955558777
+Shape of the x before PCA (12002, 75, 64)
+Total Variance covered:  0.9918415828483944
+PCA Successful, Shape of the pca data is :  (12002, 75, 29)
+
+
+
+MODEL with L = 75, Dt = 40, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.10866949707269669
+tp: 74.0
+accuracy: 0.9783393740653992
+recall: 0.7789473533630371
+precision: 0.5648854970932007
+Shape of the x before PCA (11597, 75, 64)
+Total Variance covered:  0.9919992315919324
+PCA Successful, Shape of the pca data is :  (11597, 75, 29)
+
+
+
+MODEL with L = 75, Dt = 55, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.18058569729328156
+tp: 74.0
+accuracy: 0.959770143032074
+recall: 0.7789473533630371
+precision: 0.3834196925163269
+Shape of the x before PCA (11496, 75, 64)
+Total Variance covered:  0.9919860858344749
+PCA Successful, Shape of the pca data is :  (11496, 75, 29)
+
+
+
+MODEL with L = 75, Dt = 55, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.19944393634796143
+tp: 86.0
+accuracy: 0.9483908414840698
+recall: 0.9052631855010986
+precision: 0.33725491166114807
+Shape of the x before PCA (11592, 75, 64)
+Total Variance covered:  0.9919613465063059
+PCA Successful, Shape of the pca data is :  (11592, 75, 29)
+
+
+
+MODEL with L = 75, Dt = 55, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.2534704804420471
+tp: 80.0
+accuracy: 0.9387578964233398
+recall: 0.8421052694320679
+precision: 0.28776979446411133
+Shape of the x before PCA (11669, 75, 64)
+Total Variance covered:  0.9918972880396318
+PCA Successful, Shape of the pca data is :  (11669, 75, 29)
+
+
+
+MODEL with L = 75, Dt = 55, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.09501096606254578
+tp: 79.0
+accuracy: 0.9697229266166687
+recall: 0.8315789699554443
+precision: 0.4674556255340576
+Shape of the x before PCA (11065, 75, 64)
+Total Variance covered:  0.9919353372830239
+PCA Successful, Shape of the pca data is :  (11065, 75, 29)
+
+
+
+MODEL with L = 75, Dt = 70, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.1608007252216339
+tp: 90.0
+accuracy: 0.95753014087677
+recall: 0.9473684430122375
+precision: 0.39823007583618164
+Shape of the x before PCA (11137, 75, 64)
+Total Variance covered:  0.9917921596367357
+PCA Successful, Shape of the pca data is :  (11137, 75, 29)
+
+
+
+MODEL with L = 75, Dt = 70, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.24367466568946838
+tp: 67.0
+accuracy: 0.9416517019271851
+recall: 0.7052631378173828
+precision: 0.28632479906082153
+Shape of the x before PCA (11283, 75, 64)
+Total Variance covered:  0.991711851813719
+PCA Successful, Shape of the pca data is :  (11283, 75, 29)
+
+
+
+MODEL with L = 75, Dt = 70, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.16391950845718384
+tp: 74.0
+accuracy: 0.9604135751724243
+recall: 0.7789473533630371
+precision: 0.3957219123840332
+Shape of the x before PCA (11275, 75, 64)
+Total Variance covered:  0.9918603128651743
+PCA Successful, Shape of the pca data is :  (11275, 75, 29)
+
+
+
+MODEL with L = 75, Dt = 70, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.17915040254592896
+tp: 81.0
+accuracy: 0.9606857895851135
+recall: 0.8526315689086914
+precision: 0.4050000011920929
+Shape of the x before PCA (10884, 75, 64)
+Total Variance covered:  0.9919628828545413
+PCA Successful, Shape of the pca data is :  (10884, 75, 29)
+
+
+
+MODEL with L = 75, Dt = 85, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.11833760142326355
+tp: 91.0
+accuracy: 0.967238187789917
+recall: 0.9578947424888611
+precision: 0.469072163105011
+Shape of the x before PCA (11076, 75, 64)
+Total Variance covered:  0.9918033121394706
+PCA Successful, Shape of the pca data is :  (11076, 75, 29)
+
+
+
+MODEL with L = 75, Dt = 85, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.18145138025283813
+tp: 76.0
+accuracy: 0.9560638070106506
+recall: 0.800000011920929
+precision: 0.37438422441482544
+Shape of the x before PCA (11015, 75, 64)
+Total Variance covered:  0.9919860706697725
+PCA Successful, Shape of the pca data is :  (11015, 75, 29)
+
+
+
+MODEL with L = 75, Dt = 85, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.1704745590686798
+tp: 83.0
+accuracy: 0.9540090560913086
+recall: 0.8736842274665833
+precision: 0.37219730019569397
+Shape of the x before PCA (11115, 75, 64)
+Total Variance covered:  0.9920161425656207
+PCA Successful, Shape of the pca data is :  (11115, 75, 29)
+
+
+
+MODEL with L = 75, Dt = 85, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.1936759203672409
+tp: 86.0
+accuracy: 0.948125958442688
+recall: 0.9052631855010986
+precision: 0.3440000116825104
+Shape of the x before PCA (12121, 90, 64)
+Total Variance covered:  0.9919455673925182
+PCA Successful, Shape of the pca data is :  (12121, 90, 29)
+
+
+
+MODEL with L = 90, Dt = 10, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.13955751061439514
+tp: 82.0
+accuracy: 0.9653560519218445
+recall: 0.8631578683853149
+precision: 0.4205128252506256
+Shape of the x before PCA (12171, 90, 64)
+Total Variance covered:  0.9919356730516246
+PCA Successful, Shape of the pca data is :  (12171, 90, 29)
+
+
+
+MODEL with L = 90, Dt = 10, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.09475316107273102
+tp: 78.0
+accuracy: 0.9737130403518677
+recall: 0.821052610874176
+precision: 0.4968152940273285
+Shape of the x before PCA (12142, 90, 64)
+Total Variance covered:  0.9920099265309642
+PCA Successful, Shape of the pca data is :  (12142, 90, 29)
+
+
+
+MODEL with L = 90, Dt = 10, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.11404720693826675
+tp: 87.0
+accuracy: 0.9714521169662476
+recall: 0.9157894849777222
+precision: 0.4754098355770111
+Shape of the x before PCA (12412, 90, 64)
+Total Variance covered:  0.9920559533353904
+PCA Successful, Shape of the pca data is :  (12412, 90, 29)
+
+
+
+MODEL with L = 90, Dt = 10, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.14349128305912018
+tp: 87.0
+accuracy: 0.9683136343955994
+recall: 0.9157894849777222
+precision: 0.44162437319755554
+Shape of the x before PCA (11924, 90, 64)
+Total Variance covered:  0.9919680281329188
+PCA Successful, Shape of the pca data is :  (11924, 90, 29)
+
+
+
+MODEL with L = 90, Dt = 25, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.23155520856380463
+tp: 79.0
+accuracy: 0.9499720335006714
+recall: 0.8315789699554443
+precision: 0.3264462947845459
+Shape of the x before PCA (11927, 90, 64)
+Total Variance covered:  0.9920619410945484
+PCA Successful, Shape of the pca data is :  (11927, 90, 29)
+
+
+
+MODEL with L = 90, Dt = 25, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.29139238595962524
+tp: 73.0
+accuracy: 0.9432802200317383
+recall: 0.7684210538864136
+precision: 0.28740158677101135
+Shape of the x before PCA (11872, 90, 64)
+Total Variance covered:  0.9918545427015495
+PCA Successful, Shape of the pca data is :  (11872, 90, 29)
+
+
+
+MODEL with L = 90, Dt = 25, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.14545340836048126
+tp: 88.0
+accuracy: 0.9691184759140015
+recall: 0.9263157844543457
+precision: 0.46073299646377563
+Shape of the x before PCA (11896, 90, 64)
+Total Variance covered:  0.9920487299122308
+PCA Successful, Shape of the pca data is :  (11896, 90, 29)
+
+
+
+MODEL with L = 90, Dt = 25, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.14411939680576324
+tp: 78.0
+accuracy: 0.9674978852272034
+recall: 0.821052610874176
+precision: 0.4406779706478119
+Shape of the x before PCA (11509, 90, 64)
+Total Variance covered:  0.9920435790517633
+PCA Successful, Shape of the pca data is :  (11509, 90, 29)
+
+
+
+MODEL with L = 90, Dt = 40, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.1568736732006073
+tp: 74.0
+accuracy: 0.9669852256774902
+recall: 0.7789473533630371
+precision: 0.443113774061203
+Shape of the x before PCA (11452, 90, 64)
+Total Variance covered:  0.9919003661997479
+PCA Successful, Shape of the pca data is :  (11452, 90, 29)
+
+
+
+MODEL with L = 90, Dt = 40, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.1637553572654724
+tp: 87.0
+accuracy: 0.9668219089508057
+recall: 0.9157894849777222
+precision: 0.45077720284461975
+Shape of the x before PCA (11581, 90, 64)
+Total Variance covered:  0.9919753788792999
+PCA Successful, Shape of the pca data is :  (11581, 90, 29)
+
+
+
+MODEL with L = 90, Dt = 40, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.13587285578250885
+tp: 86.0
+accuracy: 0.9660431742668152
+recall: 0.9052631855010986
+precision: 0.44102564454078674
+Shape of the x before PCA (11595, 90, 64)
+Total Variance covered:  0.9919479060285482
+PCA Successful, Shape of the pca data is :  (11595, 90, 29)
+
+
+
+MODEL with L = 90, Dt = 40, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.17616547644138336
+tp: 81.0
+accuracy: 0.9514228105545044
+recall: 0.8526315689086914
+precision: 0.3432203531265259
+Shape of the x before PCA (11219, 90, 64)
+Total Variance covered:  0.991961234851476
+PCA Successful, Shape of the pca data is :  (11219, 90, 29)
+
+
+
+MODEL with L = 90, Dt = 55, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.1522395759820938
+tp: 78.0
+accuracy: 0.9693998694419861
+recall: 0.821052610874176
+precision: 0.47560974955558777
+Shape of the x before PCA (11127, 90, 64)
+Total Variance covered:  0.9919923278616629
+PCA Successful, Shape of the pca data is :  (11127, 90, 29)
+
+
+
+MODEL with L = 90, Dt = 55, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.1515730768442154
+tp: 81.0
+accuracy: 0.967355489730835
+recall: 0.8526315689086914
+precision: 0.46022728085517883
+Shape of the x before PCA (11223, 90, 64)
+Total Variance covered:  0.992086617954566
+PCA Successful, Shape of the pca data is :  (11223, 90, 29)
+
+
+
+MODEL with L = 90, Dt = 55, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.14151416718959808
+tp: 86.0
+accuracy: 0.9625779390335083
+recall: 0.9052631855010986
+precision: 0.4236453175544739
+Shape of the x before PCA (11222, 90, 64)
+Total Variance covered:  0.9920436917793781
+PCA Successful, Shape of the pca data is :  (11222, 90, 29)
+
+
+
+MODEL with L = 90, Dt = 55, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.1117582842707634
+tp: 80.0
+accuracy: 0.9747549891471863
+recall: 0.8421052694320679
+precision: 0.5333333611488342
+Shape of the x before PCA (10870, 90, 64)
+Total Variance covered:  0.992009736649617
+PCA Successful, Shape of the pca data is :  (10870, 90, 29)
+
+
+
+MODEL with L = 90, Dt = 70, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.18652580678462982
+tp: 72.0
+accuracy: 0.9610668420791626
+recall: 0.75789475440979
+precision: 0.40909090638160706
+Shape of the x before PCA (11057, 90, 64)
+Total Variance covered:  0.99202813291096
+PCA Successful, Shape of the pca data is :  (11057, 90, 29)
+
+
+
+MODEL with L = 90, Dt = 70, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.18030226230621338
+tp: 88.0
+accuracy: 0.9553948044776917
+recall: 0.9263157844543457
+precision: 0.3842794895172119
+Shape of the x before PCA (10779, 90, 64)
+Total Variance covered:  0.9919792483347468
+PCA Successful, Shape of the pca data is :  (10779, 90, 29)
+
+
+
+MODEL with L = 90, Dt = 70, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.2182111144065857
+tp: 73.0
+accuracy: 0.9514533281326294
+recall: 0.7684210538864136
+precision: 0.3509615361690521
+Shape of the x before PCA (10960, 90, 64)
+Total Variance covered:  0.9919512296284229
+PCA Successful, Shape of the pca data is :  (10960, 90, 29)
+
+
+
+MODEL with L = 90, Dt = 70, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.17982211709022522
+tp: 70.0
+accuracy: 0.9641228318214417
+recall: 0.7368420958518982
+precision: 0.42944785952568054
+Shape of the x before PCA (10605, 90, 64)
+Total Variance covered:  0.9920294674714032
+PCA Successful, Shape of the pca data is :  (10605, 90, 29)
+
+
+
+MODEL with L = 90, Dt = 85, Accept% = 20.0%, WR = 1, PCA = True, Try = 1
+loss: 0.16850683093070984
+tp: 84.0
+accuracy: 0.956631064414978
+recall: 0.8842105269432068
+precision: 0.3981042802333832
+Shape of the x before PCA (10545, 90, 64)
+Total Variance covered:  0.9919627841583912
+PCA Successful, Shape of the pca data is :  (10545, 90, 29)
+
+
+
+MODEL with L = 90, Dt = 85, Accept% = 20.0%, WR = 1, PCA = True, Try = 2
+loss: 0.2183055877685547
+tp: 66.0
+accuracy: 0.9579645991325378
+recall: 0.6947368383407593
+precision: 0.38823530077934265
+Shape of the x before PCA (10570, 90, 64)
+Total Variance covered:  0.9919809959741674
+PCA Successful, Shape of the pca data is :  (10570, 90, 29)
+
+
+
+MODEL with L = 90, Dt = 85, Accept% = 20.0%, WR = 1, PCA = True, Try = 3
+loss: 0.18554924428462982
+tp: 75.0
+accuracy: 0.9593316316604614
+recall: 0.7894737124443054
+precision: 0.40760868787765503
+Shape of the x before PCA (10633, 90, 64)
+Total Variance covered:  0.992130922929074
+PCA Successful, Shape of the pca data is :  (10633, 90, 29)
+
+
+
+MODEL with L = 90, Dt = 85, Accept% = 20.0%, WR = 1, PCA = True, Try = 4
+loss: 0.13820813596248627
+tp: 84.0
+accuracy: 0.9683385491371155
+recall: 0.8842105269432068
+precision: 0.48275861144065857
